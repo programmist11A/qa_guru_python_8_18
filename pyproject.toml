@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-hw-18"
+version = "0.1.0"
+description = "home work QAGURU 8-18"
+authors = ["Anton <anton-fomin89@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selene = "2.0.0rc2"
+pytest = "7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
